@@ -2,11 +2,12 @@
   "name": "hooks",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main":"./hooks/indx.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "umi dev"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/keep-run/hooks.git"
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/keep-run/hooks#readme",
   "devDependencies": {
     "umi": "^3.3.3"
+  },
+  "dependencies": {
+    "react": "^17.0.1"
   }
 }
