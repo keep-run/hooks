@@ -1,0 +1,23 @@
+{
+  "name": "hooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "umi dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keep-run/hooks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keep-run/hooks/issues"
+  },
+  "homepage": "https://github.com/keep-run/hooks#readme",
+  "devDependencies": {
+    "umi": "^3.3.3"
+  }
+}
