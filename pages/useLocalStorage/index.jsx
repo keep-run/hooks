@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useLocalStorage } from '../../hooks/index'
+import { useLocalStorage } from '../../Hooks/index'
 export default function Demo() {
   const [key, setKey] = useState('test')
   const [state, updateState] = useLocalStorage(key, 'demo')
