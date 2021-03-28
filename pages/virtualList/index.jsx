@@ -4,7 +4,9 @@ import VirtualList from '../../component/virtualList'
 
 export default function () {
   const data = useMemo(() => {
-    return (new Array(1000)).fill('list-item')
+    return (new Array(100)).fill('list-item').map((item, index) => {
+      return `${item}-${index}`
+    })
   }, [])
 
   return (
